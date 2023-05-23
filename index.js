@@ -7,7 +7,7 @@ function carregar(){
     let ico = document.head.querySelector('link#ico')
     let body = document.body
 
-    msg.innerHTML = `Atualmente são ${hora} horas`
+    msg.innerHTML = `Atualmente são <strong>${hora}</strong> horas`
 
 
     if (hora <= 4 || hora >= 17){
